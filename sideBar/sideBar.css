@@ -60,7 +60,11 @@
     border-radius: 8px;
     width: 200px;
     height: 40px;
+    display: flex;
+    flex-direction: row;
 }
+
+
 
 .box:hover{
     background-color: #D4E4FF;
@@ -74,11 +78,30 @@
     line-height: 40px;
 }
 
-#newTeample{
-    color: #C0C0C0;
-    text-align: center;
+.subBoxText{
+    margin-left: 48px;
     line-height: 40px;
 }
+
+#icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+}
+
+/* 호버 및 클릭시 아이콘 색깔 바뀌게  */
+
+.iconWrap{
+    margin-top : auto;
+    margin-bottom : auto;
+}
+
+#newTeample{
+    color: #C0C0C0;
+    line-height: 40px;
+    justify-content: center;
+}
+/* 조금 더 왼쪽으로 땡겨야 할 듯 */
 
 .btm{
     margin-top: auto;
