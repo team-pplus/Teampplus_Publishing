@@ -1,0 +1,23 @@
+
+.homeHeader{
+    width: 1680px;
+    height: 72px;
+    background-color: #FFFFFF;
+    margin-left: 240px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 72px;
+}
+
+
+#home{
+    margin-left: 54px;
+}
+
+#feedback{
+    margin-right: 54px;
+    width: 32px;
+    height: 32px;
+}
