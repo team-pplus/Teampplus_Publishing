@@ -1,0 +1,86 @@
+
+
+.sideBar {
+    background-color: #F4F8FF;
+    width: 240px;
+    height: 100vh;
+    display : flex;
+    flex-direction: column;
+
+}
+
+.logo{
+    margin-left: 40px;
+    margin-top: 19px;
+    width: 240px;
+    height: 72px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 31.0648px;
+    line-height: 38px;
+}
+
+.user{
+    display: flex;
+    margin-left: 36px;
+    margin-bottom: 12px;
+    width: 240px;
+    height: 64px;
+}
+
+#userName{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#userImage{
+    width: 40px;
+    height: 40px;
+    background-color: #FCE44C;
+    border-radius: 40px;
+    margin-right: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.box{
+    color : #707070;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+}
+
+.box:hover{
+    background-color: #D4E4FF;
+    color: #487AFF;
+    cursor:grab;
+}
+/* 추가로 클릭 되면 box 색 바뀌게 설정 */
+
+.boxText{
+    margin-left: 12px;
+    line-height: 40px;
+}
+
+#newTeample{
+    color: #C0C0C0;
+    text-align: center;
+    line-height: 40px;
+}
+
+.btm{
+    margin-top: auto;
+    margin-bottom: 47px;
+}
