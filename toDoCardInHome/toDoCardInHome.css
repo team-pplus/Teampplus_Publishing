@@ -6,10 +6,34 @@
     border-radius: 16px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .toDos{
     overflow: auto;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+.step{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #707070;
+    /* color: #88A9FF; */
+}
+
+.when{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #707070;
+    /* color: #88A9FF; */
 }
 
 .text{
@@ -20,7 +44,7 @@
 }
 
 .name{
-    margin-top :24px;
+    margin-top :16px;
     margin-left : 24px;
     font-weight: 600;
     font-size: 22px;
@@ -30,7 +54,7 @@
 
 .left{
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 14px;
     display: flex;
 }
 
@@ -142,4 +166,29 @@ max-height:100%;
     margin-left: auto;
 }
 /* 
-스크롤 관련해서 문제 있으면 체크하기 */
+스크롤 관련해서 문제 있으면 체크하기 ->호버 할때 보이게해야댐 */
+
+.addBox{
+    width: 332px;
+    height: 72px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    margin-left:20px;
+    margin-bottom: 12px;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+.addBox:hover{
+    cursor :grab;
+}
+
+.addText{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #487AFF;
+    margin-top: auto;
+    margin-bottom: auto;
+}
