@@ -26,8 +26,31 @@
     height: 20px;
 }
 
-#date{
+#dDayBox{
+    display: flex;
+    padding: 0px;
+    gap: 8px;
+    width: 58px;
+    height: 26px;
+    background: #FFFFFF;
+    border: 1px solid #88A9FF;
+    border-radius: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: 139px;
+}
+
+#dDay{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #487AFF;
+    flex-grow: 0;
+    margin: auto;
+}
+
+#date{
+    margin-left: 8px;
     width: 260px;
     height: 20px;
     font-size: 18px;
@@ -49,6 +72,25 @@ img{
 #teamList{
     margin-left: 193px;
     /* 만약 팀장이어서 팀플 수정 버튼 있으면 마진 61  없으면 193*/
+    width: 72px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-image: url(./Group\ 697.png);
+    background-size: 72px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#teamNum{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    color: #A7A7A7;
+    margin-left: auto;
+    margin-right: 13px;
 }
 
 .iconBox{
