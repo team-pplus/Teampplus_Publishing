@@ -1,0 +1,63 @@
+
+.teamHeader{
+    width: 1680px;
+    height: 72px;
+    background-color: #FFFFFF;
+    margin-left: 240px;
+    display: flex;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 72px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+#main{
+    margin-left: 54px;
+    width: 250px;
+    height: 24px;
+    max-width: 250px;
+}
+
+#sub{
+    margin-left: 24px;
+    width: 260px;
+    height: 20px;
+}
+
+#date{
+    margin-left: 139px;
+    width: 260px;
+    height: 20px;
+    font-size: 18px;
+    color: #707070;
+}
+
+/* .editBox{
+    width: 69px;
+    height: 28px;
+    margin-top: 5px;
+    margin-left: 53px;
+} */
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#teamList{
+    margin-left: 193px;
+    /* 만약 팀장이어서 팀플 수정 버튼 있으면 마진 61  없으면 193*/
+}
+
+.iconBox{
+    margin-left: auto;
+    margin-right: 54px;
+}
+
+#feedback{
+    width: 32px;
+    height: 32px;
+    margin-top: 20px;
+}
