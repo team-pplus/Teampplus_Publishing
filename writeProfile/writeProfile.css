@@ -21,6 +21,13 @@ img{
     max-height: 100%;
 }
 
+input{
+    background-color:transparent;
+    border: none;
+    flex-wrap: nowrap;
+    
+}
+
 .profileInfo{
     margin-left: auto;
     margin-right: auto;
