@@ -102,6 +102,8 @@
     width: 15px;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 29px;
 }
 
 .icon:hover{
