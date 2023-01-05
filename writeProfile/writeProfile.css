@@ -25,7 +25,10 @@ input{
     background-color:transparent;
     border: none;
     flex-wrap: nowrap;
-    
+}
+
+input:focus{
+    outline: none;
 }
 
 .profileInfo{
