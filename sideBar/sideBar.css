@@ -12,14 +12,15 @@
 .logo{
     margin-left: 40px;
     margin-top: 19px;
-    width: 240px;
-    height: 72px;
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 31.0648px;
-    line-height: 38px;
+    width: 135.47px;
+    height: 38px;
 }
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 
 .user{
     display: flex;
