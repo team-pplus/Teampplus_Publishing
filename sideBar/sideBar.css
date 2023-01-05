@@ -73,9 +73,30 @@
 }
 /* 추가로 클릭 되면 box 색 바뀌게 설정 */
 
+.newBox{
+    color : #707070;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.newBox:hover{
+    cursor:grab;
+}
+
 .boxText{
     margin-left: 12px;
     line-height: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #707070;
 }
 
 .subBoxText{
@@ -100,10 +121,13 @@
     color: #C0C0C0;
     line-height: 40px;
     justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
 }
 /* 조금 더 왼쪽으로 땡겨야 할 듯 */
 
 .btm{
     margin-top: auto;
-    margin-bottom: 47px;
+    margin-bottom: 48px;
 }
